@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    // Complete the code.
+    int d = 3;
+    long ld = 444;
+    long long lld = 12345678912345;
+    char a = 'a'; 
+    float f = 334.23;
+    double b = 14049.30493;
+    cout << d << "\n" << ld << "\n" << lld << "\n" << a << "\n" << f << "\n" << b << "\n";    
+    return 0;
+}
