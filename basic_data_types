@@ -3,13 +3,13 @@
 using namespace std;
 
 int main() {
-    // Complete the code.
-    int d = 3;
-    long ld = 444;
-    long long lld = 12345678912345;
-    char a = 'a'; 
-    float f = 334.23;
-    double b = 14049.30493;
-    cout << d << "\n" << ld << "\n" << lld << "\n" << a << "\n" << f << "\n" << b << "\n";    
+    int a; 
+    long int b; 
+    long long int c; 
+    char d; 
+    float e; 
+    double f; 
+    scanf("%d %ld %lld %c %f %lf",&a,&b,&c,&d,&e,&f); 
+    printf("%d\n%ld\n%lld\n%c\n%f\n%lf",a,b,c,d,e,f);
     return 0;
 }
